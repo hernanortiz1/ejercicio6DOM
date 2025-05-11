@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Practica de DOM" />
@@ -15,11 +15,25 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Ejercicio 6 DOM</title>
   </head>
-<body>
-      <main>
+  <body>
+    <main>
       <section class="container">
         <div class="contenedorPrincipal text-center">
-          <h1>Cronómetro</h1>
+          <h1>Temporizador</h1>
+          <div class="m-5">
+            <h3>Ingrese hora, minutos y segundos para comenzar</h3>
+            <div class="input-group m-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Ejemplo: 10:11:12"
+                aria-label="input"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+
+            <button type="button" class="btn btn-primary mt-2">ACEPTAR</button>
+          </div>
           <div class="contenedorPrincipal m-4">
             <p class="display-1">00 : 00 : 00</p>
           </div>
@@ -44,5 +58,5 @@
         </h2>
       </div>
     </footer>
-</body>
+  </body>
 </html>
