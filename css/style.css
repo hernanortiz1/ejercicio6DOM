@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  overflow: hidden;
+ overflow-x: hidden;
 }
 
 main {
@@ -22,8 +22,16 @@ main {
 .contenedorPrincipal {
   justify-content: center;
   align-content: center;
-  padding: 50px;
+  padding: 30px;
+  margin: 15px;
   border-radius: 15px;
   box-shadow: 0 1px 10px gray;
   background-color: #131313;
+}
+
+
+@media (max-width: 767px) {
+  .contenedorPrincipal {
+    padding: 10px;
+  }
 }
