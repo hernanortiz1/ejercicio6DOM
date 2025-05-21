@@ -30,6 +30,16 @@ main {
 }
 
 
+.icono-btn {
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+  color: #fff;
+}
+
+.icono-btn:hover {
+  transform: scale(1.3);
+  color: #0d6efd;
+}
 @media (max-width: 767px) {
   .contenedorPrincipal {
     padding: 10px;
